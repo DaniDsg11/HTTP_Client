@@ -1,0 +1,14 @@
+{
+  "name": "HTTP_Client",
+  "packageManager": "yarn@3.2.1",
+  "devDependencies": {
+    "@types/node": "20.9.0",
+    "nodemon": "^3.1.0",
+    "ts-node": "10.9.1",
+    "typescript": "5.2.2"
+  },
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts --exec ts-node"
+  }
+}
